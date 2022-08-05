@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags</title>
+</head> 
+<body>
+    <!-- hello -->
+    <a href="https:starwars.com">Visit To StarWars</a>
+    <P>The<abbr title="World Health Organization">WHO</abbr>Was Founded In 1948</P>
+    <address>Write by <a href="https://www.starwars.com">Aziz</a>
+        <p>Visit on <br>erazizeee@gmail.com<br>167 A1,castlevania<br>TN
+    </address>
+    </p>
+    <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+        <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+    </map>
+    <article>
+        <h2>Google Chrome</h2>
+        <p>Google Chrome is a web browser developed by Google, released in 2008.<br>Chrome is the world's most popular
+            web browser today!</p>
+    </article>
+    <aside>
+        <h2>Epcot Center</h2>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions,
+            award-winning fireworks and seasonal special events.</p>
+    </aside>
+    <audio controls>
+        <source src="blinding_lights_2020.mp3" type="audio/mp3">
+        <source src="blinding_lights_2020.mp3lo" type="audio/mp3">
+    </audio>
+    <p>The first<b>Star Wars</b>Was released in 1977.</p>
+    <ul>
+        <li>User <bdi>أهمرحبا جميعا</bdi>: 60 points</li>
+        <li>User <bdi>eefefefe</bdi>: 80 points</li>
+    </ul>
+
+    <blockquote cite="https://www.starwars.com/">"May the Force be with you." Star Wars fans everywhere know this famous
+        quote by heart,<br>which is arguably the franchise's best. But let's not overlook hundreds of other
+        iconic<br>lines,
+        sayings and catchphrases from characters like Yoda,Han Solo, Luke Skywalker,<br>Darth Vader, Obi Wan Kenobi and
+        more</blockquote>
+
+
+    <h2>Button tag</h2>
+
+    <button type="button" onclick="alert('hello')">Click Me</button>
+    <h1>The cite element</h1>
+
+    <img src="img_the_scream.jpg" width="220" height="277" alt="The Scream">
+    <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+    <form action="/action_page.php" method="get">
+        <label for="browser">Choose your browser from the list:</label>
+        <input list="browsers" name="browser" id="browser">
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+        <input type="submit">
+    </form>
+    <p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+    <!-- aplet | use in html 4 -->
+<!-- basefont  | not support in html 5-->
+<!-- canvas | draw graphics -->
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+    Your browser does not support the HTML canvas tag.
+    </canvas>
+
+    <!-- The del element -->
+<p>My favorite color is <del>green</del> <ins>red</ins></p>
+<!-- The code element -->
+<p>The HTML <code>button</code> tag defines a clickable button.</p>
+<p>The CSS <code>background-color</code> property defines the background color of an element</p>
+
+<!-- caption element -->
+<style>
+    table, th, td {
+      border: 2px solid black;
+    }
+    </style>
+<h1>The caption element</h1>
+
+<table>
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$50</td>
+  </tr>
+</table>
+<!-- Center -->
+
+<!-- dd |description list-->
+<dl>
+    <dt>Coffee</dt>
+    <dd>Black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>White cold drink</dd>
+  </dl>
+
+  <!-- details -->
+  <details>
+    <summary>Epcot Center</summary>
+    <p>Epcot is a theme park at Walt Disney World Resort featuring exciting<br>attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </details>
+
+  <!-- dir | direct not supp in html -->
+
+  <!-- The em element -->
+
+<p>You <em>have</em> to hurry up!</p>
+
+<p>We <em>cannot</em> live like this.</p>
+</body>
+
+</html>
